@@ -1,61 +1,102 @@
 header {
-  color:grey;
-  align-items:left;
-  font-size:10px;
+    color: skyblue;
+    align-items: left;
+    font-size: 10px;
 }
+
 body {
-  color:black;
-  background-color:black;
-  background-image:url('https://prod.rolls-roycemotorcars.com/content/dam/rollsroyce-website/H.%20Company/H.4.3%20Company%20founders%20n%20hyphen%20feature/H_CompanyFoundersAndHyphen_01_hero_v1.jpg.rr.1366.MED.jpg');
-  font-family:sans-serif;
-  display:flex;
-  flex-direction:justify;
+    color: rgb(80, 24, 24);
+    background-color: black;
+    background-color: gray;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: justify;
 }
+
 .one {
-  color:white;
-  border-color:black;
-  border:2px;
-  border-right:20px;
-  border-style: solid;
-  background-image:url('https://prod.rolls-roycemotorcars.com/content/dam/rollsroyce-website/History/00.Hero_v1-2.jpg.rr.1366.MED.jpg');
-  font-size:24px;
-  float: left;
-  height: 200px;
-  width: 300px;
-  margin-top: 0px;
-  margin-right: 10px;
-  margin-left: 0px;
-  margin-bottom: 20px;
-  overflow:auto;
+    color: white;
+    border-color: black;
+    border: 2px;
+    border-right: 20px;
+    border-style: solid;
+    background-image: url(/images/RR-perfect.jpeg);
+    background-size: cover;
+    font-size: 24px;
+    float: left;
+    height: 53vh;
+    width: 20vw;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    overflow: auto;
 }
-.one >#two {
-  text-align:justify;
-}
+
 .two {
-  float: right;
-  margin-top: 10px;
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-bottom:10px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
 }
+
 .three {
-  width: 100%;
+    width: 100%;
+    line-height: 30px;
 }
+
 p {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  font-size: 0.9cm;
-  text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 0.9cm;
+    text-align: justify;
 }
-#concept {
-  float:right;
+
+#me {
+    display: flexbox;
 }
+
 #jexi-1 {
-  float:left;
+    flex-direction: left;
 }
+
 #jexi-2 {
-  float:right;
+    flex-direction: right;
 }
+
 #jexi-3 {
-  float:right;
+    flex-direction: right;
+}
+
+.Img1 {
+    height: 100vh;
+    width: 80vw;
+}
+
+.Image-last {
+    height: 600px;
+    width: 1300px;
+}
+
+ol li {
+    font-size: 24px;
+    list-style-type: upper-roman;
+}
+
+p {
+    font-size: 16px;
+}
+
+.skip p {
+    font-size: 18px;
+}
+
+#contacts {
+    background-color: rgb(17, 17, 65);
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer #contacts p {
+    align-items: center;
 }
