@@ -1,0 +1,61 @@
+header {
+  color:grey;
+  align-items:left;
+  font-size:10px;
+}
+body {
+  color:black;
+  background-color:black;
+  background-image:url('https://prod.rolls-roycemotorcars.com/content/dam/rollsroyce-website/H.%20Company/H.4.3%20Company%20founders%20n%20hyphen%20feature/H_CompanyFoundersAndHyphen_01_hero_v1.jpg.rr.1366.MED.jpg');
+  font-family:sans-serif;
+  display:flex;
+  flex-direction:justify;
+}
+.one {
+  color:white;
+  border-color:black;
+  border:2px;
+  border-right:20px;
+  border-style: solid;
+  background-image:url('https://prod.rolls-roycemotorcars.com/content/dam/rollsroyce-website/History/00.Hero_v1-2.jpg.rr.1366.MED.jpg');
+  font-size:24px;
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  overflow:auto;
+}
+.one >#two {
+  text-align:justify;
+}
+.two {
+  float: right;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom:10px;
+}
+.three {
+  width: 100%;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 0.9cm;
+  text-align: justify;
+}
+#concept {
+  float:right;
+}
+#jexi-1 {
+  float:left;
+}
+#jexi-2 {
+  float:right;
+}
+#jexi-3 {
+  float:right;
+}
